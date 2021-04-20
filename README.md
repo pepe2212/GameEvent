@@ -30,9 +30,10 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 
 	
  2)Second, Set up H2
-	Once you have imported the project, go to application.properties file and make sure the key and values are as follows:
-		spring.datasource.url=jdbc:h2:mem:testdb
-		spring.datasource.driverClassName=org.h2.Driver
-		spring.datasource.username=sa
-		spring.datasource.password=
+ 
+	2.1)Once you have imported the project, go to application.properties file and make sure the key and values are as follows:
+	spring.datasource.url=jdbc:h2:mem:testdb
+	spring.datasource.driverClassName=org.h2.Driver
+	spring.datasource.username=sa
+	spring.datasource.password=
 a
