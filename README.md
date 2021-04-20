@@ -11,15 +11,15 @@ To have this project up and runnig, follow the next steps:
 	B)In case you use the Kakfa folder provided in this repository, you don't need to unzip and rename the name of the folder.
 
 	1.2)Then, access to the bin/windows folder and run the next commands to start the next instances:
-	Zookeper:
-	zookeeper-server-start.bat ..\..\config\zookeeper.properties
+Zookeper:
+zookeeper-server-start.bat ..\..\config\zookeeper.properties
 ![image](https://user-images.githubusercontent.com/78396172/115475476-4fa9db00-a205-11eb-9c63-a7431bf934cc.png)
 
 Kafka:
 kafka-server-start.bat ..\..\config\server.properties
 ![image](https://user-images.githubusercontent.com/78396172/115476060-a237c700-a206-11eb-90f7-2742f1bdb0f2.png)
 
-Then, use this command to create a topic called "novice-players"
+	1.3)Then, use this command to create a topic called "novice-players"
 kafka-topic.bat --create --topic novice-players --boostrap-server localhost:9092	
 ![image](https://user-images.githubusercontent.com/78396172/115476209-065a8b00-a207-11eb-9c24-91187ea87d70.png)
 
