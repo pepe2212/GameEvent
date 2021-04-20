@@ -20,13 +20,13 @@ kafka-server-start.bat ..\..\config\server.properties
 ![image](https://user-images.githubusercontent.com/78396172/115476060-a237c700-a206-11eb-90f7-2742f1bdb0f2.png)
 
 	1.3)Then, use this command to create a topic called "novice-players"
-kafka-topic.bat --create --topic novice-players --boostrap-server localhost:9092	
+kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:9092	
 ![image](https://user-images.githubusercontent.com/78396172/115476209-065a8b00-a207-11eb-9c24-91187ea87d70.png)
-
-And Finally, make sure the application.properties file have the following properties:
-spring.kafka.producer.bootstrap-servers=localhost:9092
-spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
-spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
+	
+	1.4)And Finally, make sure the application.properties file have the following properties:
+	spring.kafka.producer.bootstrap-servers=localhost:9092
+	spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
+	spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
 
 	
  2)Second, Set up H2
@@ -35,5 +35,4 @@ spring.kafka.producer.value-serializer=org.springframework.kafka.support.seriali
 	spring.datasource.driverClassName=org.h2.Driver
 	spring.datasource.username=sa
 spring.datasource.password=
-
 a
