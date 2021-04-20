@@ -14,7 +14,11 @@ zookeeper-server-start.bat ..\..\config\zookeeper.properties
 
 Kafka:
 kafka-server-start.bat ..\..\config\server.properties
+![image](https://user-images.githubusercontent.com/78396172/115476060-a237c700-a206-11eb-90f7-2742f1bdb0f2.png)
+
 Then, use this command to create a topic called "novice-players"
+
+![image](https://user-images.githubusercontent.com/78396172/115476162-e5923580-a206-11eb-83da-c66e283b6068.png)
 kafka-topic.bat --create --topic novice-players --boostrap-server localhost:9092	
 
 And Finally, make sure the application.properties file have the following properties:
