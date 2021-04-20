@@ -33,3 +33,4 @@ spring.kafka.producer.value-serializer=org.springframework.kafka.support.seriali
 	spring.datasource.username=sa
 spring.datasource.password=
 
+a
