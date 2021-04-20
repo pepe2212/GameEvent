@@ -3,6 +3,7 @@
 To have this project up and runnig, follow the next steps:
 
 1)First, set up Kafka 
+
 	1.1) Go to official site at https://kafka.apache.org/downloads and download the Kafka 2.8 version, in case you don't want to go there, the source is here in this 		project, in  the folder called Kafka. 
 	
 	@Consider:
