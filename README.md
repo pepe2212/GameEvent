@@ -4,7 +4,7 @@ To have this project up and runnig, follow the next steps:
 
 1)First, set up Kafka 
 
-	1.1) Go to official site at https://kafka.apache.org/downloads and download the Kafka 2.8 version, in case you don't want to go there, the source is here in this 		project, in  the folder called Kafka. 
+	1.1) Go to official site at https://kafka.apache.org/downloads and download the Kafka 2.8 version, in case you don't want to go there, the source is here in this project, in  the folder called Kafka. 
 	
 	@Consider:
 	A)In case you have downloaded it from the site, unzip the folder and rename the folder to a shorter name, this is to avoid to get an error due to the longer name of the 	   folder.
