@@ -48,3 +48,7 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 5)Finally hit the http://localhost:8282/api/v1/players endpoint(this endpoint is defined in the RestController Class) by using any HTTP Client tool(in this case I will use Postman) 
 ![image](https://user-images.githubusercontent.com/78396172/115480516-3fe3c400-a210-11eb-958c-40e00f10becf.png)
 
+6)You will see the result like this
+![image](https://user-images.githubusercontent.com/78396172/115480910-19725880-a211-11eb-9ff5-73e0254567e2.png)
+
+
