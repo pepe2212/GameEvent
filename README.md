@@ -2,7 +2,7 @@
 
 To have this project up and runnig, follow the next steps:
 
-1)First, set up Kafka 
+1)First, set up Kafka before running the app
 
 	1.1) Go to official site at https://kafka.apache.org/downloads and download the Kafka 2.8 version, in case you don't want to go there, the source is here in this project, in  the folder called Kafka. 
 	
@@ -29,7 +29,7 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 	spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
 
 	
- 2)Second, Set up H2
+ 2)Second, Set up H2 before running the app
  
 	2.1)Once you have imported the project, go to application.properties file and make sure the key and values are as follows:
 	spring.datasource.url=jdbc:h2:mem:testdb
@@ -37,9 +37,14 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 	spring.datasource.username=sa
 	spring.datasource.password=
 
-3)Import the Maven Project, which will load all dependencies defined in the POM.xml file in the project.
+3)Import the Maven Project, which will load all dependencies defined in the POM.xml file in the project(In my case I'm using STS)
 
 ![image](https://user-images.githubusercontent.com/78396172/115479181-7e2bb400-a20d-11eb-91d8-397fbd1f46f8.png)
  
 
+
+4)Start the app by running the main Class PlayersProjectApplication.java that is annotated with @SpringBootApplication
+
+5)Finally hit the http://localhost:8282/api/v1/players endpoint(this endpoint is defined in the RestController Class) by using any HTTP Client tool(in this case I will use Postman) 
+![image](https://user-images.githubusercontent.com/78396172/115480516-3fe3c400-a210-11eb-958c-40e00f10becf.png)
 
