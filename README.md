@@ -64,6 +64,10 @@ Just click connect button, and you will see the PLAYER table created with the re
 
 ![image](https://user-images.githubusercontent.com/78396172/115498218-cb6e4c80-a232-11eb-8bad-366c6c9a6c61.png)
 
+8) And to make sure, your object is sent to kafka topic, run next command
+
+Kafka-console.bat --topic novice-players --bootstrap-server localhost:9092
+![image](https://user-images.githubusercontent.com/78396172/115499107-703d5980-a234-11eb-96ed-4ab1d5068468.png)
 
 
 
