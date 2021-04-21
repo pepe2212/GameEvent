@@ -43,7 +43,7 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
  
 
 
-4)Start the app by running the main Class PlayersProjectApplication.java that is annotated with @SpringBootApplication
+4)Start the app by running the main Class PlayersProjectApplication.java that is annotated with @SpringBootApplication(Right click on this class and run it as a Java Application)
 
 5)Finally hit the http://localhost:8282/api/v1/players endpoint(this endpoint is defined in the RestController Class) by using any HTTP Client tool(in this case I will use Postman) 
 ![image](https://user-images.githubusercontent.com/78396172/115480516-3fe3c400-a210-11eb-958c-40e00f10becf.png)
@@ -53,4 +53,16 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 
 ![image](https://user-images.githubusercontent.com/78396172/115493039-98bf5680-a228-11eb-810c-fd25d074d0bb.png)
 
-.
+7)And Finally to make sure your object is stored in H2, go to http://localhost:8282/h2-console/login.jsp, but before ensure the application.properties file have the following key and value:
+spring.h2.console.enabled=true
+After that, once you access the console you will see something like this:
+![image](https://user-images.githubusercontent.com/78396172/115496558-898fd700-a22f-11eb-873a-07c267089738.png)
+
+Just click connect button, and you will see the PLAYER table created with the respective records stored
+
+
+
+
+
+
+
