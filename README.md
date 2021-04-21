@@ -51,4 +51,5 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 6)You will see the result like this
 ![image](https://user-images.githubusercontent.com/78396172/115480910-19725880-a211-11eb-9ff5-73e0254567e2.png)
 
+![image](https://user-images.githubusercontent.com/78396172/115493039-98bf5680-a228-11eb-810c-fd25d074d0bb.png)
 
