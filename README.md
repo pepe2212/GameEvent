@@ -23,7 +23,7 @@ kafka-server-start.bat ..\..\config\server.properties
 kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:9092	
 ![image](https://user-images.githubusercontent.com/78396172/115476209-065a8b00-a207-11eb-9c24-91187ea87d70.png)
 	
-	1.4)And Finally, make sure the application.properties file have the following properties:
+	1.4)And Finally, make sure the application.properties file have the following properties, once you have imported the project:
 	spring.kafka.producer.bootstrap-servers=localhost:9092
 	spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
 	spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
@@ -36,4 +36,10 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 	spring.datasource.driverClassName=org.h2.Driver
 	spring.datasource.username=sa
 	spring.datasource.password=
-a
+
+3)Import the Maven Project, which will load all dependencies defined in the POM.xml file in the project.
+
+![image](https://user-images.githubusercontent.com/78396172/115479181-7e2bb400-a20d-11eb-91d8-397fbd1f46f8.png)
+ 
+
+
