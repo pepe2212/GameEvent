@@ -61,7 +61,7 @@ After that, once you access the console you will see something like this:
 ![image](https://user-images.githubusercontent.com/78396172/115496558-898fd700-a22f-11eb-873a-07c267089738.png)
 
 Just click connect button, and you will see the PLAYER table created with the respective records stored
-.
+
 
 
 
