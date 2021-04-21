@@ -53,3 +53,4 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 
 ![image](https://user-images.githubusercontent.com/78396172/115493039-98bf5680-a228-11eb-810c-fd25d074d0bb.png)
 
+.
