@@ -54,7 +54,9 @@ kafka-topics.bat --create --topic novice-players --bootstrap-server localhost:90
 ![image](https://user-images.githubusercontent.com/78396172/115493039-98bf5680-a228-11eb-810c-fd25d074d0bb.png)
 
 7)And Finally to make sure your object is stored in H2, go to http://localhost:8282/h2-console/login.jsp, but before ensure the application.properties file have the following key and value:
+
 spring.h2.console.enabled=true
+
 After that, once you access the console you will see something like this:
 ![image](https://user-images.githubusercontent.com/78396172/115496558-898fd700-a22f-11eb-873a-07c267089738.png)
 
